@@ -25,21 +25,33 @@ public class ServerProxy extends CommonProxy
 
 		@Override public void preInit()
 		{
-			// Perform necessary pre-initialization.
+			// Call superclass method.
+
+				super.preInit();
+
+			// Perform necessary server-side pre-initialization.
 
 				/* CODE */
 		}
 
 		@Override public void init()
 		{
-			// Perform necessary initialization.
+			// Call superclass method.
+
+				super.init();
+
+			// Perform necessary server-side initialization.
 
 				/* CODE */
 		}
 
 		@Override public void postInit()
 		{
-			// Perform necessary post-initialization.
+			// Call superclass method.
+
+				super.postInit();
+
+			// Perform necessary server-side post-initialization.
 
 				/* CODE */
 		}

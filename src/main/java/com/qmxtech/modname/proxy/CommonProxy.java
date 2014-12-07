@@ -25,17 +25,23 @@ public class CommonProxy implements IProxy
 
 		@Override public void preInit()
 		{
-			// Do nothing.
+			// Perform necessary common pre-initialization.
+
+				/* CODE */
 		}
 
 		@Override public void init()
 		{
-			// Do nothing.
+			// Perform necessary common initialization.
+
+				/* CODE */
 		}
 
 		@Override public void postInit()
 		{
-			// Do nothing.
+			// Perform necessary common post-initialization.
+
+				/* CODE */
 		}
 }
 
